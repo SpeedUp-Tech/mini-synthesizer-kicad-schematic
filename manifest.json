@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "project": "mini-synthesizer-kicad-schematic",
-  "release_version": "v0.1.0",
+  "release_version": "v0.1.1",
   "generated_date": "2026-08-14",
   "publication_ready_at_prepare_time": true,
   "files": [
@@ -42,8 +42,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 5067,
-      "sha256": "3d04680a68a68523621d2c06f8302c28f8ec87dd77eb2c6113990ed6c56c900e"
+      "bytes": 4966,
+      "sha256": "e9284804c49b0c0e5e7458e3a790f7b185fa06bad4507f48e058cd9bb94ffdb1"
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
