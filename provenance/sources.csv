@@ -1,0 +1,7 @@
+covered_path,owner_or_upstream,source,version_or_date,license,status,modifications,notice
+hardware/**/*.kicad_pro; hardware/**/*.kicad_sch,SpeedUp,Supplied SpeedUp project evidence,2026-08-14; saved with KiCad 10 on 2026-09-01,CERN-OHL-P-2.0,included,Standalone unverified libraries omitted,LICENSE_SCOPE.md
+bom/BillOfMaterials.csv,SpeedUp,Exported from the included KiCad schematic,2026-09-01,CC BY 4.0,included,Grouped engineering-review BOM; schematic is source of truth,README.md
+evidence/*.png,SpeedUp,Rendered from included schematic files,2026-09-01,CC BY 4.0,included,Rendered for public engineering evidence,LICENSE_SCOPE.md
+source bundle symbols/*.kicad_sym,Unverified,Private supplied source bundle,unknown,unknown,excluded,15 standalone symbol libraries not redistributed,provenance/EXCLUDED_ASSETS.md
+source bundle libs/ProjectFootprints.pretty/*.kicad_mod,Unverified,Private supplied source bundle,unknown,unknown,excluded,26 standalone footprints not redistributed,provenance/EXCLUDED_ASSETS.md
+source bundle sym-lib-table; fp-lib-table,Unverified,Private supplied source bundle,unknown,unknown,excluded,Two project-local library tables not redistributed,provenance/EXCLUDED_ASSETS.md

@@ -1,0 +1,114 @@
+{
+  "schema_version": 1,
+  "project": "mini-synthesizer-kicad-schematic",
+  "release_version": "v0.1.0",
+  "generated_date": "2026-08-14",
+  "publication_ready_at_prepare_time": true,
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 88,
+      "sha256": "e96ec9eaf22fa8fb5aed76e84fdd294b4c2955cb1eaa35b483e87284aa8c2cd1"
+    },
+    {
+      "path": "ENGINEERING_LIMITATIONS.md",
+      "bytes": 1685,
+      "sha256": "ae9e1fe24c453b511ee86d395bab16f324ef7bfe22635e66659349226422fea6"
+    },
+    {
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "bytes": 18657,
+      "sha256": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    },
+    {
+      "path": "LICENSES/CERN-OHL-P-2.0.txt",
+      "bytes": 8852,
+      "sha256": "6e471d647db50527d0c75ee5f1a55a74012ab177c73282bef0bdc7f6562b7ded"
+    },
+    {
+      "path": "LICENSE_SCOPE.md",
+      "bytes": 1054,
+      "sha256": "426be7eeea0d84e5228aed6582ae694e43b1c32ea77d3981fb1ab2e3fe0309dc"
+    },
+    {
+      "path": "PRODUCT_REQUIREMENT.md",
+      "bytes": 710,
+      "sha256": "0045778995c53343d9fc2bd5ee33ba3fdde22ecad98405e9a845ca5ddb67173d"
+    },
+    {
+      "path": "PUBLISHING_CHECKLIST.md",
+      "bytes": 711,
+      "sha256": "87903e0821050111d211801a6802daa243d50ce930600ad3c03add3264f3dcc4"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5067,
+      "sha256": "3d04680a68a68523621d2c06f8302c28f8ec87dd77eb2c6113990ed6c56c900e"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "bytes": 1351,
+      "sha256": "e43d0daa4b074604d001d56b442d672759701438e14c9a6e4fe44500ed6bfeee"
+    },
+    {
+      "path": "bom/BillOfMaterials.csv",
+      "bytes": 4648,
+      "sha256": "4d19d3041dbe4e32a104140b814f35e139807ab1524794ea400024d14439a982"
+    },
+    {
+      "path": "evidence/schematic-overview.png",
+      "bytes": 286380,
+      "sha256": "e9527abe616cd2ca1b6a56098d4ea3709d78390c380c49bc68947cf72f9abcb9"
+    },
+    {
+      "path": "evidence/structure-diagram.png",
+      "bytes": 81466,
+      "sha256": "74bf1e79980b2f696134bd3479d601d4a84023674bfed83d3d96ae186f65ce7b"
+    },
+    {
+      "path": "hardware/Mini_Synthesizer.kicad_pro",
+      "bytes": 10583,
+      "sha256": "cf2a7d580aa66f813500d5cc40abdf840943c351ec9244e41cc1fb06587cd88d"
+    },
+    {
+      "path": "hardware/Mini_Synthesizer.kicad_sch",
+      "bytes": 26872,
+      "sha256": "8dd54d6a16035e5d01ebc234a2bae985da4cb22ab8fffba078b6fbcf80652c7f"
+    },
+    {
+      "path": "hardware/modules/AUDIO.kicad_sch",
+      "bytes": 251551,
+      "sha256": "af1ee5d7187e8024aa12ccccd8122e7433919813afebb2f45eb4652e6a1caf12"
+    },
+    {
+      "path": "hardware/modules/CONTROL.kicad_sch",
+      "bytes": 257440,
+      "sha256": "41130a6e92aecba4fd513dba3a4b78b77fdf2966ca526a25868a0a7b0ed1d44c"
+    },
+    {
+      "path": "hardware/modules/POWER.kicad_sch",
+      "bytes": 117046,
+      "sha256": "4da71a68506fae42c5246c0351c0e966760e270747af24e09c3084dd47f3c675"
+    },
+    {
+      "path": "hardware/modules/UI.kicad_sch",
+      "bytes": 208103,
+      "sha256": "408c55b93737885f1e37849f6303ce8e6d3d0f68e82b6d44d6528c7468e70476"
+    },
+    {
+      "path": "provenance/EXCLUDED_ASSETS.md",
+      "bytes": 820,
+      "sha256": "0ca902f459719b1c30cedda9ee106fc4889f7c4b37687a7c163ff801dbb67636"
+    },
+    {
+      "path": "provenance/THIRD_PARTY_NOTICES.md",
+      "bytes": 1351,
+      "sha256": "e43d0daa4b074604d001d56b442d672759701438e14c9a6e4fe44500ed6bfeee"
+    },
+    {
+      "path": "provenance/sources.csv",
+      "bytes": 1200,
+      "sha256": "e6956ee16fee56de1e418b817c3f3692eeb9f192cac1c589e69ff463880f2924"
+    }
+  ]
+}
