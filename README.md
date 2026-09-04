@@ -1,6 +1,6 @@
 # Mini Synthesizer KiCad Schematic
 
-This repository contains an editable KiCad 10 schematic for a compact STM32-based synthesizer. The design is organized into four sheets covering USB-C power, the main controller, the key and potentiometer interface, and the audio path.
+Generated with SpeedUp from the available project requirements, this repository contains an editable KiCad 10 schematic for a compact STM32-based synthesizer prepared for engineering review. The design is organized into four sheets covering USB-C power, the main controller, the key and potentiometer interface, and the audio path.
 
 [Download v0.1.2](https://github.com/SpeedUp-Tech/mini-synthesizer-kicad-schematic/releases/tag/v0.1.2) · [Open the live demo](https://speed-up.ai/demo/mini-synthesizer/) · [Read the project case study](https://speed-up.ai/blog/mini-synthesizer-kicad-schematic/)
 
