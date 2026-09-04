@@ -2,7 +2,7 @@
 
 This repository contains an editable KiCad 10 schematic for a compact STM32-based synthesizer. The design is organized into four sheets covering USB-C power, the main controller, the key and potentiometer interface, and the audio path.
 
-[Download v0.1.1](https://github.com/SpeedUp-Tech/mini-synthesizer-kicad-schematic/releases/tag/v0.1.1) · [Open the live demo](https://speed-up.ai/demo/mini-synthesizer/) · [Read the project case study](https://speed-up.ai/blog/mini-synthesizer-kicad-schematic/)
+[Download v0.1.2](https://github.com/SpeedUp-Tech/mini-synthesizer-kicad-schematic/releases/tag/v0.1.2) · [Open the live demo](https://speed-up.ai/demo/mini-synthesizer/) · [Read the project case study](https://speed-up.ai/blog/mini-synthesizer-kicad-schematic/)
 
 ![Mini Synthesizer hierarchical schematic structure](evidence/structure-diagram.png)
 
@@ -53,10 +53,17 @@ Some standalone project-local library exports are not included because their red
 
 The BOM was exported from the included schematic and contains 55 grouped rows covering 120 unique references. It is intended for design review, not purchasing. If the project is edited, treat the `.kicad_sch` files as the source of truth and regenerate the BOM.
 
+## Key component documentation
+
+- [STMicroelectronics STM32F411CE product page and data sheet](https://www.st.com/en/microcontrollers-microprocessors/stm32f411ce.html)
+- [Texas Instruments TLV320DAC3101 product page and data sheet](https://www.ti.com/product/TLV320DAC3101)
+- [Microchip ATtiny402 product page and data sheet](https://www.microchip.com/en-us/product/attiny402)
+- [Richtek RT9013 product page and data sheet](https://www.richtek.com/Home/Products/Linear%20Regulator/Single%20Output%20Linear%20Regulator/RT9013) — the manufacturer marks this part as EOL; review availability and select a suitable alternative before production.
+
 ## Open in KiCad
 
 1. Install KiCad 10 or a compatible version.
-2. Download and extract the [v0.1.1 release](https://github.com/SpeedUp-Tech/mini-synthesizer-kicad-schematic/releases/tag/v0.1.1), or clone this repository.
+2. Download and extract the [v0.1.2 release](https://github.com/SpeedUp-Tech/mini-synthesizer-kicad-schematic/releases/tag/v0.1.2), or clone this repository.
 3. Open `hardware/Mini_Synthesizer.kicad_pro`.
 4. Review the hierarchy, embedded symbols, pin mappings, and footprint assignment strings before making downstream changes.
 
@@ -72,8 +79,10 @@ SpeedUp-owned hardware design files are published under CERN-OHL-P-2.0. Original
 
 SpeedUp is an AI schematic generator that turns product requirements into structured schematic sheets and an editable KiCad project for engineering review.
 
-- [SpeedUp](https://speed-up.ai/)
-- [Live project demo](https://speed-up.ai/demo/mini-synthesizer/)
-- [Mini Synthesizer project case study](https://speed-up.ai/blog/mini-synthesizer-kicad-schematic/)
+## Project links
+
+- https://speed-up.ai/blog/mini-synthesizer-kicad-schematic/
+- https://speed-up.ai/demo/mini-synthesizer/
+- https://speed-up.ai/
 
 KiCad is a trademark of the KiCad project. SpeedUp is independent and is not affiliated with or endorsed by the KiCad project.
